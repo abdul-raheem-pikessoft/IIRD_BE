@@ -33,6 +33,7 @@ import { UserModule } from '../v1/users/user.module';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { EmailModule } from '../../mailer/mailer.module';
+import { LambdaModule } from "../v1/lambda/lambda.module";
 
 @Module({
   imports: [
@@ -66,6 +67,7 @@ import { EmailModule } from '../../mailer/mailer.module';
     FilesModule,
     UserTokensModule,
     EmailModule,
+    LambdaModule
   ],
   controllers: [AppController],
   providers: [
