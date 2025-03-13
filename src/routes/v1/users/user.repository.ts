@@ -18,7 +18,6 @@ export class UserRepository {
         'userRolePermission.permission',
         'userRolePermission.role.rolePermission',
         'userRolePermission.role.rolePermission.permission',
-        'userSettings',
       ],
     });
   }
